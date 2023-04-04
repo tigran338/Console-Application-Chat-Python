@@ -11,8 +11,11 @@ Python
 4) On the window you want to connect to, in the other windows enter "connect <IP address> <port no.)>" and it will connect to the one you want to be the host (ex. "connect 192.168.1.155 55555")
  
 5) Once connected they can message between each other based on their ID no. from the "list" by using "send <connection_id> <message>" (ex. "send 0 hey"). 
+
 6)Windows connecting to the host cannot message each other until they connect to each other with the "connect" command.
+
 7)The connection made between user's can be cut by using the "terminate <connection_id>" command using the number from their list number. (ex. "terminate 0")
+
 8)A user can also make themseleves exit the program by entering "exit"
 
 
