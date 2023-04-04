@@ -1,5 +1,7 @@
 # Console-Application-Chat-Python
-The program act as client and server at the same time. So each user can connect to other and vise versa. If there is 3 user and 1st connected to the 3rd; 2nd connected to 3rd; The 1st and 2nd user will not have access to each other, but the 3rd will have both of them.1st
+Program in Python that acts as both client and server. Multiple users can connect and communicate with each other through TCP connections established by the program. Implemented functionalities like establishing new connections, listing all current connections, sending messages to specific connections, and terminating connections. Utilized Python's socket and threading modules to handle multiple client connections and enable concurrent communication.
+
+If there is 3 user and 1st connected to the 3rd; 2nd connected to 3rd; The 1st and 2nd user will not have access to each other, but the 3rd will have both of them.1st
 
 # Prerequisites
 Python
