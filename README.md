@@ -7,9 +7,10 @@ Python
 # Running the Program
 1) Open a command window in the directory where the file is located, easy method is entering "cmd" in the address bar at the top of the folder window
 2) Run the command "py chat.py <port_no>" or "python chat.py <port_no>" to start the chat. Replace <port_no> with the desired port number for the server to listen on (ex. "py chat.py 55555").
-3)Open another command window and enter a different port number than the first one used, multiple windows can be opened to test the messaging
-4)On the window you want to connect to, in the other windows enter "connect <IP address> <port no.)>" and it will connect to the one you want to be the host (ex. "connect 192.168.1.155 55555")
-5)Once connected they can message between each other based on their ID no. from the "list" by using "send <connection_id> <message>" (ex. "send 0 hey"). 
+3) Open another command window and enter a different port number than the first one used, multiple windows can be opened to test the messaging
+4) On the window you want to connect to, in the other windows enter "connect <IP address> <port no.)>" and it will connect to the one you want to be the host (ex. "connect 192.168.1.155 55555")
+ 
+5) Once connected they can message between each other based on their ID no. from the "list" by using "send <connection_id> <message>" (ex. "send 0 hey"). 
 6)Windows connecting to the host cannot message each other until they connect to each other with the "connect" command.
 7)The connection made between user's can be cut by using the "terminate <connection_id>" command using the number from their list number. (ex. "terminate 0")
 8)A user can also make themseleves exit the program by entering "exit"
